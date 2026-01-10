@@ -17,14 +17,14 @@ public class Start {
 
         List<Employee> list = new ArrayList<>();
 
-        System.out.println("Enter the number of employees: ");
+        System.out.print("Enter the number of employees: ");
         int n = scan.nextInt();
 
         for (int i=1; i<=n; i++){
             System.out.println("Employee #" + i + " data:");
-            System.out.println("Outsourced (y/n)?");
+            System.out.print("Outsourced (y/n)? ");
             char ch = scan.next().charAt(0);
-            System.out.print("Name ");
+            System.out.print("Name: ");
             scan.nextLine();
             String name = scan.nextLine();
             System.out.print("Hours: ");
@@ -38,16 +38,16 @@ public class Start {
                 Employee emp = new OutSourcedEmployee(name, hours, valuePerHour, additionalCharge);
                 list.add(emp);
             }
-            else{
+            else {
                 Employee emp = new Employee(name, hours, valuePerHour);
                 list.add(emp);
             }
+        }
 
-            System.out.println();
-            System.out.println("PAYMENTS:");
-            for (Employee emp : list){
-                System.out.println(emp.getName() + " - $ " + String.format("%.2f", emp.payment()));
-            }
+        System.out.println();
+        System.out.println("PAYMENTS:");
+        for (Employee emp : list){
+            System.out.println(emp.getName() + " - $ " + String.format("%.2f", emp.payment()));
         }
 
     }

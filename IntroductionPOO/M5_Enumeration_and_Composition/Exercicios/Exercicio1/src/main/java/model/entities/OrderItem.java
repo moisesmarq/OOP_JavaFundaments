@@ -1,4 +1,4 @@
-package main.java.model.entities;
+package M5_Enumeration_and_Composition.Exercicios.Exercicio1.src.main.java.model.entities;
 
 public class OrderItem {
     private int quantity;

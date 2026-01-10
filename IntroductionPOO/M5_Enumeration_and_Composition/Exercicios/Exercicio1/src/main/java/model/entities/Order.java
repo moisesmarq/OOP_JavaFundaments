@@ -1,11 +1,10 @@
-package main.java.model.entities;
-
+package M5_Enumeration_and_Composition.Exercicios.Exercicio1.src.main.java.model.entities;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import main.java.model.enums.OrderStatus;
+import M5_Enumeration_and_Composition.Exercicios.Exercicio1.src.main.java.model.enums.OrderStatus;
 
 public class Order {
 

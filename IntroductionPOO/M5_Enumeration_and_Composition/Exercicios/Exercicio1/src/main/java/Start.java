@@ -1,4 +1,4 @@
-package main.java;
+package M5_Enumeration_and_Composition.Exercicios.Exercicio1.src.main.java;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -7,11 +7,8 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import main.java.model.entities.Order;
-import main.java.model.entities.Client;
-import main.java.model.entities.OrderItem;
-import main.java.model.entities.Product;
-import main.java.model.enums.OrderStatus;
+import M5_Enumeration_and_Composition.Exercicios.Exercicio1.src.main.java.model.entities.*;
+import M5_Enumeration_and_Composition.Exercicios.Exercicio1.src.main.java.model.enums.OrderStatus;
 
 public class Start {
     public static void main(String[] args) throws ParseException {

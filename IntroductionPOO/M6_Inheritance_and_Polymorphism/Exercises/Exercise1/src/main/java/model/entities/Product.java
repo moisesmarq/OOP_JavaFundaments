@@ -1,13 +1,13 @@
-package M5_Enumeration_and_Composition.Exercicios.Exercicio1.src.main.java.model.entities;
+package M6_Inheritance_and_Polymorphism.Exercises.Exercise1.src.main.java.model.entities;
 
 public class Product {
     private String name;
     private double price;
-    
+
     public Product() {
     }
 
-    public Product(String name, double price){
+    public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -15,9 +15,11 @@ public class Product {
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public double getPrice() {
         return price;
     }
@@ -25,5 +27,7 @@ public class Product {
         this.price = price;
     }
 
-    
+    public String priceTag() {
+        return name + " $ " + String.format("%.2f", price);
+    }
 }
