@@ -1,6 +1,5 @@
-package main.java;
+package M1_Objects_Concepts.Exercicios.Exercicio4.src.main.java;
 
-import java.util.Currency;
 import java.util.Locale;
 import java.util.Scanner;
 
